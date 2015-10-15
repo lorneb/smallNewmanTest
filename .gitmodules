@@ -1,0 +1,3 @@
+[submodule "workforcekiosk_deployment"]
+	path = workforcekiosk_deployment
+	url = git@bitbucket.org:lorneb/workforcekiosk_deployment.git

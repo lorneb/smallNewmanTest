@@ -1,0 +1,18 @@
+{
+  "name": "smalltest",
+  "version": "1.0.63",
+  "description": "small newman bump",
+  "main": "server.js",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.8.1",
+    "grunt-git": "^0.3.5",
+    "grunt-string-replace": "^1.2.0",
+    "grunt-version-bump": "^1.0.5",
+    "json5": "^0.4.0",
+    "unirest": "^0.4.0",
+	"newman" : "latest"
+  },
+  "devDependencies": {  }
+}

@@ -1,0 +1,44 @@
+{
+ "id": "e54569af-8245-f4b9-e154-0d6b43f80841",
+ "name": "WorkforceKioskAPIServerUnitTest",
+ "description": "",
+ "order": [],
+ "folders": [
+  {
+   "owner": "162749",
+   "lastUpdatedBy": "162749",
+   "lastRevision": 60319632,
+   "id": "59d90d0e-88bc-2c5f-3070-7c55b7d97772",
+   "name": "1.Version",
+   "description": "testing service existnce and obtain basic version information",
+   "order": [
+    "dd925f96-5369-a76a-027e-b43360998951"
+   ],
+   "collectionId": "8bfab4d7-a4e4-63b8-566d-0c453b6d5a36"
+  }
+ ],
+ "timestamp": 1443131546186,
+ "owner": "162749",
+ "remoteLink": "",
+ "public": false,
+ "requests": [
+    {
+   "id": "dd925f96-5369-a76a-027e-b43360998951",
+   "headers": "",
+   "url": "{{URL}}/versionInfo",
+   "preRequestScript": "",
+   "pathVariables": {},
+   "method": "GET",
+   "data": [],
+   "dataMode": "params",
+   "version": 2,
+   "tests": "tests[\"Body matches string\"] = responseBody.has(\"Workforce Kisok API Server Version\");\n\n\n",
+   "currentHelper": "normal",
+   "helperAttributes": {},
+   "time": 1443135273381,
+   "name": "VersionInfo",
+   "description": "",
+   "collectionId": "e54569af-8245-f4b9-e154-0d6b43f80841"
+  }
+ ]
+}
